@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registr</title>
+    <style>
+        input, select{
+
+            height: 25px;
+            background-color: rgb(181, 232, 232);
+            border-radius: 5px;
+            width: 270px;
+
+        }
+        button{
+            height: 40px;
+            width: 100px;
+            border-radius: 5px;
+           
+           
+        }
+        textarea{
+            height: 50px;
+            background-color: rgb(181, 232, 232);
+            border-radius: 5px;
+            width: 270px;
+
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div style="text-align: center; background-color: white">
+        
+        <div style="background-color: rgb(241, 245, 242);  width: 500px; margin: auto; padding: 20px; border-radius: 20px;">
+        <h2>Testni boshlash uchun quyidagilarni to'ldiring</h2>
+        <hr style="color: rgb(224, 115, 27);">
+   <form action="">
+
+        <label  style="padding-right: 240px;" for="ism"><b>Ism:</b></label><br>
+        <input name="ism" id="ism" placeholder="ismingizni kiriting:" required maxlength="15" minlength="3">
+        <br><br>
+        
+
+        <label for="familiya" style="padding-right: 213px;"><b>Familiya:</b></label><br>
+        <input type="text" name="familiya" id="familiya" placeholder="familiyangizni kiriting:" required maxlength="15" minlength="3">
+        <br><br>
+
+        
+
+        <label for="yosh" style="padding-right: 140px;"><b>Yoshingizni kiriting:</b></label><br>
+        <input type="number" name="yosh" id="yosh" placeholder="yosh" required min="10" max="100">
+        <br><br>
+
+        <label  style="padding-right: 230px;" for="email"><b>Email:</b></label><br>
+        <input type="email" name="email" id="email" placeholder="emailingizni kiriting:" required>
+        <br><br>
+
+        <label style="padding-right: 115px;" for="viloyat"><b>Viloyatingizni tanlang:</b></label><br>
+        <select  style="padding-right: 60px; height: 35px;" name="viloyat" id="viloyat" required>
+
+        <option value="" disabled selected>Tanlang</option>
+        <option value="qoroqolpogiston">Qoraqolpog'iston Respublikasi</option>
+        <option value="toshkent">Toshkent viloyati</option>
+        <option value="samarqand">Samarqand viloyati</option>
+        <option value="jizzax">Jizzax viloyati</option>
+        <option value="xorazm">Xorazm viloyati</option>
+        <option value="buxoro">Buxoro viloyati</option>       
+        <option value="navoiy">Navoiy viloyati</option>
+        <option value="qashqadaryo">Qashqadaryo viloyati</option>
+        <option value="surxandaryo">Surxandaryo viloyati</option>
+        
+        </select>
+
+        <br><br>
+
+        <label style="padding-right: 240px;" for="bio"><b>Bio:</b></label><br>
+        <textarea  name="bio" id="bio" placeholder="xabar qoldiring:" maxlength="100" minlength="3"></textarea>
+        <br><br>
+
+        <div>
+        <button style=" background-color: rgb(242, 159, 159);" type="reset">Tozalash</button>
+        <button style="background-color: rgb(158, 158, 210);" type="submit">Yuborish</button>
+        <button style="background-color: aqua;"><a href="./bek.html" target="_blank">testga o'tish</a></button>
+        </div>
+
+
+    </form>
+    
+</div> 
+    </div> 
+
+    
+</body>
+</html>
